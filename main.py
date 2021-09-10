@@ -14,6 +14,6 @@ def configure_routing():
 
 if __name__ == '__main__':
     configure_routing()
-    uvicorn.run(app, port=8008, host='127.0.0.1')
+    uvicorn.run(app, port=8000, host='127.0.0.1')
 else:
     configure_routing()
